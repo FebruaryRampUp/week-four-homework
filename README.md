@@ -2,16 +2,8 @@
 
 ### Part One - Manipulate CSV (List practice)
 
-Download the sample CSV file from here. 
+Using what you’ve learned about arrays, and knowing that data[0] will tell you the column headers, and that each item in the ‘data’ array is an array itself (try `data[0][0]`), create methods that do the following:
 
-Do the following:
-```ruby
-require ‘csv’
-f = File.open(‘path/to/your/file’) (C:/path/to/file if on Windows)
-data = CSV.parse(f.read)
-```
-
-Using what you’ve learned about arrays, and knowing that data[0] will tell you the column headers, and that each item in the ‘data’ array is an array itself (try `data[0][0]`), find:
 1. All of the `customer_company_name` values
 2. The sum of the `transaction_charge` values
 
