@@ -1,6 +1,11 @@
 ## Week Four Homework
 
-### Part One - Manipulate CSV (List practice)
+### Part One - Iteration Practice
+
+Let's practice iterating through arrays an hashes. Open the `iteration.rb` file and follow the directions!
+
+
+### Part Two - Manipulate CSV (List practice)
 
 Using what you’ve learned about arrays, and knowing that data[0] will tell you the column headers, and that each item in the ‘data’ array is an array itself (try `data[0][0]`), create methods that do the following:
 
