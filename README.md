@@ -45,3 +45,15 @@ end
 
 ### Resources
 - [Ruby CSV Library](http://www.sitepoint.com/guide-ruby-csv-library-part/)
+
+Ruby object
+
+An instance of a Ruby class with methods inherited from the class and its own instance variables to store information in
+
+class
+
+A "blueprint" for Ruby objects that provides a set of methods and the names of instance variables that can be used and set to make unique objects
+
+method
+
+A message we send to Ruby objects in order to do something
