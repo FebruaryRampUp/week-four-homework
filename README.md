@@ -33,7 +33,7 @@ puts sum(my_array)
 Codeacademy.com - Under the Ruby Path, please complete Object-Oriented Programming I
 
 ### Resources
-- [Ruby CSV Library](http://www.sitepoint.com/guide-ruby-csv-library-part/)
+http://www.codequizzes.com/
 
 ### Ruby object
 An instance of a Ruby class with methods inherited from the class and its own instance variables to store information in
