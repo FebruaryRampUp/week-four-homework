@@ -32,8 +32,10 @@ puts sum(my_array)
 
 Codeacademy.com - Under the Ruby Path, please complete Object-Oriented Programming I
 
-### Resources
+### More Practice
 http://www.codequizzes.com/
+
+### Glossary 
 
 ### Ruby object
 An instance of a Ruby class with methods inherited from the class and its own instance variables to store information in
