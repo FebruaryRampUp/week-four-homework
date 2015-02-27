@@ -28,32 +28,18 @@ puts sum(my_array)
 # -> 25
 ```
 
-### Part Two - Manipulate CSV (List practice)
+### Homework Part 2
 
-Using what you’ve learned about arrays, and knowing that data[0] will tell you the column headers, and that each item in the ‘data’ array is an array itself (try `data[0][0]`), create methods that return the following:
-
-1. All of the `customer_company_name` values
-2. The sum of the `transaction_charge` values
-
-Hint:
-Your code will likely look like:
-```ruby
-data.each do |row|
-  # some ruby code
-end
-```
+Codeacademy.com - Under the Ruby Path, please complete Object-Oriented Programming I
 
 ### Resources
 - [Ruby CSV Library](http://www.sitepoint.com/guide-ruby-csv-library-part/)
 
-Ruby object
-
+### Ruby object
 An instance of a Ruby class with methods inherited from the class and its own instance variables to store information in
 
-class
-
+### class
 A "blueprint" for Ruby objects that provides a set of methods and the names of instance variables that can be used and set to make unique objects
 
-method
-
+### method
 A message we send to Ruby objects in order to do something
