@@ -1,20 +1,34 @@
-## Create a method called `average` that finds the average of a given array of numbers.
-
 def average(number_array)
-  # here we need to iterate over our array in order to find the average
+
+result = 0.0
+ number_array.each do |number|
+ 	result += number
+ end
+result/number_array.length
 end
 
-average([10,20,30,40,50])
-# -> 30
+average([10, 20, 30, 40, 50])
+# here we need to iterate over our array in order to find the average
 
+ puts average([10, 20, 30, 40, 50])
+
+
+# -> 30
 
 
 ## Now, create a method that takes a hash with first and last name keys and outputs their full name as a string
 
-def full_name(name_hash)
+penelope = {first_name: "Penelope", last_name: "Penn"}
 
+def full_name (name_hash)
+full_name.each do |first_name, last_name |
+puts "#{first_name}: $#{last_name}"
+end
 end
 
-penelope = {first_name: "Penelope", last_name: "Penn"}
-puts full_name(penelope)
-# - > "Penelope Penn"
+
+
+
+  puts penelope.values
+
+
