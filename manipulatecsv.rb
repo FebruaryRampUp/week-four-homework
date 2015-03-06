@@ -9,9 +9,9 @@ data = CSV.parse(f.read)
 # Find the necessary column, given a string name of a column and a parsed csv file
 def find_correct_column_number(column_name, data)
 	header_row = 0
-	for i in 0..data[header_row].count
-		if data[header_row][i] == column_name
-			return i
+	data[header_row].each_with_index do |element, index|
+		if element == column_name
+			return index
 		end
 	end
 	return "Column header not found."
