@@ -34,18 +34,25 @@ companyfinder(data)
 def chargeadder(csvfile)
 headers = csvfile[0]
 headers.clear
+# removes the contents of the [0] array
 
 totals = Array.new
 csvfile.each do |x| 
 	totals << x[21]
 end
+# makes an array and shoves all the charges into the new array
+
 totals.delete_at(0)
+# kills the nill value left over from the  first operation
 
 totals.map! do |strings| 
 	strings.to_f 
 end
+# takes each element and turns it into a float 
 
 newtotal = totals.reduce(:+)
+# adds all the floats in the array
+
 puts "the total amount of charges is #{newtotal}"
 end 
 chargeadder(data)
