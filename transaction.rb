@@ -19,10 +19,12 @@ names = Array.new
 csvfile.each do |x| 
 	names << x[2]
 end
+
 names.delete_at(0)
 p names
 puts ""
 end
+
 companyfinder(data)
 # => an array with all of the customer names.. Not really sure what we want to DO with all of these names but there they are, ready for use!
 
@@ -42,8 +44,9 @@ totals.delete_at(0)
 totals.map! do |strings| 
 	strings.to_f 
 end
-totals.inject {|sum, integers| sum + integers}
+
 newtotal = totals.reduce(:+)
-p newtotal
+puts "the total amount of charges is #{newtotal}"
 end 
 chargeadder(data)
+# => "the total amount of charges is 2828621.25"
