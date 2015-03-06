@@ -25,12 +25,10 @@ data.each do |row|
 	puts row[column_company_name]
 end
 
-
-
-# # Find the sum of the transaction_charge values
+# Find the sum of the transaction_charge values
 column_transaction_charge = find_correct_column_number("transaction_charge", data)
 sum = 0
 data.each do |row|
-	sum + row[column_transaction_charge].to_f
+	sum += row[column_transaction_charge].to_f
 end
 puts sum
